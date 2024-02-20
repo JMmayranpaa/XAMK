@@ -1,0 +1,168 @@
+body,
+html {
+
+    font-family: 'Impact', sans-serif;
+}
+
+.container {
+    display: grid;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px;
+
+
+}
+
+.color-box2 {
+    text-align: center;
+    color: white;
+    margin: 5px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100px;
+}
+
+.color-box3 {
+    text-align: center;
+    color: white;
+    margin: 5px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100px;
+}
+
+.color-box1 {
+    text-align: center;
+    color: white;
+    margin: 5px;
+
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100px;
+
+}
+
+.box1-text {
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.footer {
+    display: none;
+}
+
+
+/* boxien ikonit */
+
+.color-box2 .icon {
+    margin-top: 15px;
+    font-size: 25px;
+    color: black;
+}
+
+.color-box3 .icon {
+    margin-top: 15px;
+    font-size: 25px;
+    color: black;
+}
+
+/* boxien tekstit */
+
+.color-box1 .box1-text {
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+}
+
+.color-box2 .text {
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+.color-box3 .text {
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+
+
+
+/* media queryt */
+
+@media only screen and (min-width: 600px) {
+
+
+    .footer {
+        display: block;
+        margin: 5px;
+        color: white;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100px;
+    }
+
+    .footer-text {
+        margin: 25px;
+        font-size: 25px;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .color-box1 {
+        order: 1;
+        margin: 1%;
+        width: 97.91666666666667%;
+    }
+
+    .color-box2 {
+        order: 2;
+        width: 47.91666666666667%;
+        margin: 1%;
+    }
+
+    .color-box3 {
+        order: 3;
+        width: 47.91666666666667%;
+        margin: 1%;
+    }
+
+    .footer {
+        order: 4;
+        width: 97.91666666666667%;
+        margin: 1%;
+    }
+}
+
+#box1 {
+    background-color: #2C5D37;
+}
+
+#box2 {
+    background-color: #E3C515;
+}
+
+#box3 {
+    background-color: #EE51B1;
+}
+
+#box4 {
+    background-color: #A59CD3;
+}
+
+#box5 {
+    background-color: #4B2D9F;
+}
+
+#footer1 {
+    background-color: #000;
+}
